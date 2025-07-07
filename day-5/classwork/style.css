@@ -1,0 +1,32 @@
+#parent{
+    width: 80%;
+    height: 600px;
+    border: 2px solid green;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: auto;
+   
+}
+#parent>div:nth-child(1){
+    background-color: rgb(32, 117, 122);
+}
+#parent>div:nth-last-child(8){
+    background-color: aqua;
+    grid-area:  2/3/5/5;
+}
+#parent>div:nth-last-child(6){
+    background-color: blue;
+    grid-area: 4/2/6/3;
+}
+
+#parent>div:nth-child(2){
+    grid-area: 1/2/2/4;
+}
+
+.box{
+    /* width: 200px;
+    height: 150px; */
+    border: 1px solid red;
+    border-radius: 5%;
+}
