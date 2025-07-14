@@ -5,7 +5,7 @@
     height: 320px;
     width: 250px;
     border: 2px solid black;
-    background-color: rgb(188, 186, 186);
+    background-color:black;
     
 }
 input{
@@ -38,6 +38,6 @@ input{
       color: white;
 
 }
-.calculator>div:nth-child(17){
- grid-area:5/4/6/5;
+.calculator>div:nth-child(15){
+ grid-area:4/3/5/5;
 }
